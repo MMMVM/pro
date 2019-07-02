@@ -1,8 +1,8 @@
-m,n=input().split()
-s=abs(len(m)-len(n))
+m,a=input().split()
+s=abs(len(m)-len(a))
 for i in range(len(m)):
-    if len(n)==1 and n[i] in m:
+    if len(a)==1 and a[i] in m:
         break
-    if m[i]!=n[i]:
+    if m[i]!=a[i]:
         s=s+1
 print(s)
