@@ -1,11 +1,11 @@
 num=input()
 num=int(num)
-A=[]
+B=[]
 for i in range(0,num):  
     m=input()
-    A.append(m)
+    B.append(m)
 H=[]
-for i in zip(*A):
+for i in zip(*B):
     if i.count(i[0])==len(i): 
         H.append(i[0])
     else:
